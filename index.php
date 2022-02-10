@@ -7,6 +7,7 @@
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script src="https://unpkg.com/marked@0.3.6"></script>
     <script src="https://unpkg.com/lodash@4.16.0"></script>
+    <link rel="stylesheet" href="styleindex.css" media="screen" type="text/css" />
 
     <style>
         * {
@@ -69,7 +70,6 @@
                 }, 300),// http://149.91.80.75:8055/admin/
 
                 loadApi() {
-
              
                     fetch(`http://149.91.80.75:8055/items/Sequence?filter[Dispositif][_eq]=${token}`).then((response) => {
                         return response.json();

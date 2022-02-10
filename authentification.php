@@ -10,7 +10,7 @@
 <body>
     <h1>Inter'Display</h1>
     <div id='container'>
-    <form id="myform" action='http://localhost/Affichage_dynamique/index.php'>
+    <form id="myform" action='http://localhost/projet/Affichage_dynamique/index.php'>
         <label class='label' for='login'>Token :</label>
         <input type='text' placeholder="Token" name='token' id='token'/><br/>
         <input type='submit' class="pure-button pure-button-primary" id="view-fullscreen" value="Confirmer"/>
